@@ -13,7 +13,7 @@ Project pythonPytest contains determined automated test cases
 pip install -r requirements.txt
 ```
 
-## Run tests
+## Run tests & reports generation
 ```bash
 pytest
 pytest -v -s Tests/ --html=report.html
