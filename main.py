@@ -8,7 +8,7 @@ def run_tests():
 
 def generate_report():
     """Function to generate test report"""
-    pytest.main(["tests", "--html=test_report.html"])
+    pytest.main(["tests", "--html-report=./report/report.html"])
 
 
 if __name__ == "__main__":
